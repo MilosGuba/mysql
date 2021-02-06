@@ -1,0 +1,12 @@
+package mysql;
+
+import mysql.entity.CapitalCity;
+import mysql.entity.City;
+import mysql.entity.Country;
+import mysql.output.Output;
+        dat.updatePopulation("Slovakia", "Ploske", 69);
+        dat.updatePopulation("Slovakia", "Ploske", 68);
+        List<CapitalCity> capitalCityList = dat.getCapitalCities("Europe");
+        dat.printCapitalCities(capitalCityList);
+    }
+}
